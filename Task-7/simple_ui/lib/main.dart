@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget{
                   children: [
                     Column(
                       children: [
-                        Icon(Icons.person,color: Colors.brown[700],size: 60,weight:100 , )
+                        Icon(Icons.person,color: Colors.brown[800],size: 60,weight:100 , )
                       ],
                     ),
                     Padding(padding: EdgeInsets.all(10),
@@ -80,11 +80,11 @@ class MyApp extends StatelessWidget{
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Row(children: [
-                      Icon(Icons.star_rounded , color: Colors.orange[100],size:25 ,),
-                      Icon(Icons.star_rounded , color: Colors.orange[100],size:25 ,),
-                      Icon(Icons.star_rounded , color: Colors.orange[100],size:25 ,),
-                      Icon(Icons.star_rounded , color: Colors.orange[100],size:25 ,),
-                      Icon(Icons.star_half_rounded , color: Colors.orange[100],size:25 ,),
+                      Icon(Icons.star_rounded , color: Colors.amber[100],size:25 ,),
+                      Icon(Icons.star_rounded , color: Colors.amber[100],size:25 ,),
+                      Icon(Icons.star_rounded , color: Colors.amber[100],size:25 ,),
+                      Icon(Icons.star_rounded , color: Colors.amber[100],size:25 ,),
+                      Icon(Icons.star_half_rounded , color: Colors.amber[100],size:25 ,),
                     ], 
                     ),
                     Text("150 Reviews",style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.w600)),
@@ -110,7 +110,7 @@ class MyApp extends StatelessWidget{
                         Icon(Icons.code, color: Colors.brown[700],fontWeight:FontWeight.bold , size: 25,),
                         Text('EXP:',style: TextStyle(fontWeight: FontWeight.w700, color: Colors.black,fontSize: 18),),
                         Container(height: 10,),
-                        Text("1 week🤣",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 15))
+                        Text("1 week🤣",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w900,fontSize: 15))
                       ],
                     ),
                     Column(
@@ -118,7 +118,7 @@ class MyApp extends StatelessWidget{
                         Icon(Icons.bug_report_sharp,color: Colors.brown[700],fontWeight:FontWeight.bold , size: 25,),
                         Text('Bugs:',style: TextStyle(fontWeight: FontWeight.w700, color: Colors.black,fontSize: 18),),
                         Container(height: 10,),
-                        Text("جبنه اسطنبولى",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 15))
+                        Text("جبنه اسطنبولى",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w900,fontSize: 15))
                       ],
                     ),
                     Column(
@@ -126,7 +126,7 @@ class MyApp extends StatelessWidget{
                         Icon(Icons.coffee,color: Colors.brown[700],fontWeight:FontWeight.bold , size: 25,),
                         Text('Coffee:',style: TextStyle(fontWeight: FontWeight.w700, color: Colors.black,fontSize: 18),),
                         Container(height: 10,),
-                        Text("∞",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 15))
+                        Text("∞",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w900,fontSize: 15))
                       ],
                     ),
                   ],
