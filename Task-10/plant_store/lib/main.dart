@@ -18,7 +18,7 @@ class _MyAPP extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false ,
       title: "GreenLeaf Store",
       theme: ThemeData(
         primaryColor: Color(0xFF1B5E20),
