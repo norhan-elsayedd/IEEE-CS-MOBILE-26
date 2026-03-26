@@ -5,7 +5,7 @@ class Details extends StatefulWidget {
   final String price;
   final String image;
 
-  Details({required this.name,required this.price,required this.image,
+  const Details({super.key, required this.name,required this.price,required this.image,
   });
 
   @override
